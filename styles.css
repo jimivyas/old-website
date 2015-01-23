@@ -1,19 +1,39 @@
 header {
-	height: 400px;
-	background: url(pictures/background.png) center center;
+	height: 600px;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(pictures/background1.jpg);
+	background-size: 100%;
 	margin-top: 0px;
 	overflow: auto;
 }
 
+.headtext {
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+}
 
 #name {
-	text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: Helvetica;
 	font-size: 80px;
-	text-align: center;
-	margin-left: 150px;
-	margin-right: auto;
-	margin-top: 300px;
 }
+
+#blurb {
+	font-size: 30px;
+	margin-top: 350px;
+
+}
+
+
+/*#picture {
+	height: 250px;
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: inline-block;
+}*/
 
