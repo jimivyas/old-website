@@ -7,12 +7,13 @@ header {
 	background-size: 100%;
 	margin-top: 0px;
 	overflow: auto;
-}
-
-.headtext {
 	font-family: Helvetica;
 	color: white;
 	text-align: center;
+
+}
+
+.headtext {
 }
 
 #name {
