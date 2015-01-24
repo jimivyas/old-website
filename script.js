@@ -10,4 +10,8 @@ $(document).ready(function() {
           .css('padding-top','0');
       }
   });
+
+  $('.abt-me').hover(function(){
+    $('.abt-me').addClass('animated bounceOutLeft');
+  });
 });
