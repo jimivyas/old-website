@@ -1,11 +1,11 @@
 /*roughly arranged in top-to-bottom order*/
 
 header {
-	height: 600px;
+	height: 100%;
 	background: linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url(pictures/background1.jpg);
+    ), url(../pictures/background1.jpg);
 	background-size: 100%;
 	margin-top: 0px;
 	overflow: auto;
