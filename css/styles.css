@@ -34,12 +34,23 @@ nav {
 
 
 
-ul {
+nav {
 	font-family: Helvetica;
 	color: $blue;
 	text-align: center;
+}
+
+/*#about-me {
+	background-color: gray;
+	font-family:
+	text-align: center;
 
 }
+*/
+.about1 {
+	padding: 100px 0px 50px 0px;
+}
+
 
 li {
 	border-style: solid;
@@ -51,9 +62,11 @@ li {
 }
 
 
-.about {
-	font-family: Helvetica;
+#about-me {
+	background-color: gray;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	font-size: 30
 }
 
 
