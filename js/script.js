@@ -11,7 +11,5 @@ $(document).ready(function() {
       }
   });
 
-  $('.abt-me').hover(function(){
-    $('.abt-me').addClass('animated bounceOutLeft');
-  });
+
 });

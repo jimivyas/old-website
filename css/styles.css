@@ -29,8 +29,6 @@ header {
 }
 
 
-
-
 nav {
 	padding-top: 0px;
 	padding-bottom: 10px;
@@ -44,13 +42,10 @@ nav {
 }
 
 
-.about1 {
-	padding: 100px 0px 50px 0px;
-}
-
-
 li {
 	border-style: solid;
+	border-color: #687355;
+	color: #687355;
 	border-width: 2px;
 	padding: 5px 5px 5px 5px;
 	list-style-type: none;
@@ -60,15 +55,20 @@ li {
 
 
 #about-me {
-	background-color: gray;
+	height: 100%;
+	background-color: #AFA99F;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 30;
-	background: url(../pictures/watercolor.jpg);
 }
 
 
-/*relates back to script.js*/
+.about1 {
+	padding: 100px 0px 50px 0px;
+}
+
+
+/*related to the navbar script*/
 .fixed {
     position: fixed;
 }
