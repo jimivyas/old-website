@@ -28,10 +28,7 @@ header {
 	font-size: 80px;
 }
 
-.arrow {/*
-	margin-top:*/
 
-}
 
 
 nav {
@@ -39,18 +36,10 @@ nav {
 	padding-bottom: 10px;
 	height: 50px;
 	width: 100%;
-	border-bottom: 2px solid;
-	border-top: 2px solid;
-}
-
-
-
-nav {
-/*	background-image: url(../pictures/sandpaper.png);
-	background-repeat: repeat-x;
-
-*/	font-family: Helvetica;
-	background-color: #0053A6;
+	border-bottom: 2px solid #AFA99F;
+	border-top: 2px solid #AFA99F;
+	font-family: Helvetica;
+	background-color: #D7E5F3;
 	text-align: center;
 }
 
