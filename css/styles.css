@@ -54,9 +54,17 @@ li {
 }
 
 
+.abouts {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
 #about-me {
 	height: 100%;
 	background-color: #AFA99F;
+	color: #fefbf7;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 30;
@@ -64,11 +72,25 @@ li {
 
 
 .about1 {
-	padding: 100px 0px 50px 0px;
+	padding-bottom: 50px;
 }
 
 
 /*related to the navbar script*/
 .fixed {
     position: fixed;
+}
+
+#technology {
+	text-align: center;
+}
+
+#technology img {
+	width: 200px;
+	height: 100px;
+	margin-left: 0;
+	padding-top: 50px;
+	padding-left: 0;
+
+
 }
