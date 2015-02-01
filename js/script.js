@@ -12,4 +12,17 @@ $(document).ready(function() {
   });
 
 
+  $("#click-about").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#about-me").offset().top
+    }, 750);
+  });
+
+  // $("#click-about").hover(function() {
+  //   $("#click-about").animate({
+  //     width: +=10
+  //   }, 250);
+  // });
+
+
 });
