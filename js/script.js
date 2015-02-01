@@ -18,6 +18,7 @@ $(document).ready(function() {
     }, 750);
   });
 
+
   $("#click-about").click(function() {
     $('html, body').animate({
       scrollTop: $("#about-me").offset().top

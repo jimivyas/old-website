@@ -56,6 +56,9 @@ li {
 	margin-left: 1px;
 }
 
+li:hover {
+	border-width: 6px;
+}
 
 .abouts {
 	position: relative;
