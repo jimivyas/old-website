@@ -34,8 +34,7 @@ nav {
 	padding-bottom: 10px;
 	height: 50px;
 	width: 100%;
-	border-bottom: 2px solid #AFA99F;
-	border-top: 2px solid #AFA99F;
+	border-top: 1px solid #D7E5F3;
 	font-family: Helvetica;
 	background-color: #D7E5F3;
 	text-align: center;
@@ -48,13 +47,13 @@ li {
 	border-radius: 3px;
 	border-color: #fefbf7;
 	background-color: #fefbf7;
-/*	color: #687355; THIS IS THE GREEN*/	
 	color: #303096;
 	border-width: 2px;
-	padding: 5px 5px 2px 5px;
+	padding: 6px 5px 3px 5px;
 	list-style-type: none;
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 1px;
+	margin-left: 1px;
 }
 
 
@@ -62,6 +61,7 @@ li {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	/* this vertically centers it >:D*/
 }
 
 
