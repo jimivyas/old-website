@@ -42,7 +42,7 @@ nav {
 }
 
 
-li {
+#navbar li {
 	border-style: solid;
 	border-radius: 3px;
 	border-color: #fefbf7;
@@ -56,7 +56,7 @@ li {
 	margin-left: 1px;
 }
 
-li:hover {
+#navbar li:hover {
 	border-width: 6px;
 }
 
@@ -74,12 +74,16 @@ li:hover {
 	color: #fefbf7;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 30;
+	font-size: 30px;
 }
 
 
 .about1 {
 	padding-bottom: 5px;
+}
+
+.about-principles {
+	font-size: 20px;
 }
 
 
