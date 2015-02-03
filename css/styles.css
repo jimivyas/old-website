@@ -60,13 +60,6 @@ nav {
 	border-width: 6px;
 }
 
-.abouts {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	/* this vertically centers it >:D*/
-}
-
 
 #about-me {
 	height: 100%;
@@ -74,17 +67,31 @@ nav {
 	color: #fefbf7;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 }
 
+.abouts {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	/* this vertically centers it >:D*/
+}
 
 .about1 {
 	padding-bottom: 5px;
 }
 
 .about-principles {
-	font-size: 20px;
+	text-align: center;
+	font-size: 17px;
 }
+
+.about-principles ol {
+	display: inline-block;
+	list-style-type: none;
+	line-height: 15px;
+}
+
 
 
 /*related to the navbar script*/
