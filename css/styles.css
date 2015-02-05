@@ -1,0 +1,103 @@
+/*roughly arranged in top-to-bottom order*/
+
+header {
+	height: 100%;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(../pictures/background1.jpg);
+	background-size: 100%;
+	overflow: auto;
+	font-family: Helvetica;
+	color: #EEE9E9;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+	text-align: center;
+}
+
+
+#name {
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+#boring_information {
+	font-size: 36px;
+}
+
+#blurb {
+	font-size: 80px;
+}
+
+
+nav {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid #D7E5F3;
+	font-family: Helvetica;
+	background-color: #D7E5F3;
+	text-align: center;
+	z-index: 5000;
+}
+
+
+li {
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #fefbf7;
+	background-color: #fefbf7;
+	color: #303096;
+	border-width: 2px;
+	padding: 6px 5px 3px 5px;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+li:hover {
+	border-width: 6px;
+}
+
+.abouts {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	/* this vertically centers it >:D*/
+}
+
+
+#about-me {
+	height: 100%;
+	background-color: #AFA99F;
+	color: #fefbf7;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 30;
+}
+
+
+.about1 {
+	padding-bottom: 5px;
+}
+
+
+/*related to the navbar script*/
+.fixed {
+    position: fixed;
+}
+
+#technology {
+	text-align: center;
+}
+
+#technology img {
+	width: 200px;
+	height: 100px;
+	margin-left: 0;
+	padding-top: 50px;
+	padding-left: 0;
+
+
+}
