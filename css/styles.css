@@ -60,6 +60,11 @@ li:hover {
 	border-width: 6px;
 }
 
+/*related to the navbar script*/
+.fixed {
+    position: fixed;
+}
+
 .abouts {
 	position: relative;
 	top: 50%;
@@ -69,24 +74,24 @@ li:hover {
 
 
 #about-me {
-	height: 100%;
+	height: 105%;
 	background-color: #AFA99F;
 	color: #fefbf7;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	font-size: 30;
+	font-size: 30px;
 }
 
 
 .about1 {
-	padding-bottom: 5px;
+}
+
+.about-principles {
+	font-size: 17px;
 }
 
 
-/*related to the navbar script*/
-.fixed {
-    position: fixed;
-}
+
 
 #technology {
 	text-align: center;
