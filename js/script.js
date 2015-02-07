@@ -25,5 +25,11 @@ $(document).ready(function() {
     }, 500);
   });
 
+  $("#click-portfolio").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#portfolio").offset().top
+    }, 500);
+  });
+
 
 });
