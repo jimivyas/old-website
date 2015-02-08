@@ -49,15 +49,19 @@ li {
 	background-color: #AFA99F;
 	color: #14073A;
 	border-width: 2px;
-	padding: 6px 5px 3px 5px;
+	padding: 6px 3px 3px 3px;
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 1px;
 	margin-left: 1px;
+	transition: border-left-width 0.2s ease;
+	transition: border-right-width 0.2s ease;
+
 }
 
 li:hover {
-	border-width: 6px;
+	border-left-width: 5px;
+	border-right-width: 5px;
 }
 
 /*related to the navbar script*/

@@ -11,6 +11,22 @@ $(document).ready(function() {
       }
   });
 
+  // $( 'li' )
+  //   .on('mouseenter', function() {
+  //     $(this).css({
+  //       'border-right-width': '6px',
+  //       'border-left-width': '6px'
+  //     });
+  //   })
+  //   .on('mouseleave', function() {
+  //     $(this).css({
+  //       'border-width': '2px'
+  //     });
+  //   });
+
+
+
+
 
   $("#click-arrow").click(function() {
     $('html, body').animate({
