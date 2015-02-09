@@ -11,20 +11,6 @@ $(document).ready(function() {
       }
   });
 
-  // $( 'li' )
-  //   .on('mouseenter', function() {
-  //     $(this).css({
-  //       'border-right-width': '6px',
-  //       'border-left-width': '6px'
-  //     });
-  //   })
-  //   .on('mouseleave', function() {
-  //     $(this).css({
-  //       'border-width': '2px'
-  //     });
-  //   });
-
-
 
 
 
@@ -47,5 +33,10 @@ $(document).ready(function() {
     }, 500);
   });
 
+  $("#click-skills").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#technology").offset().top
+    }, 450);
+  });
 
 });
