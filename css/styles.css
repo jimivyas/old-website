@@ -55,7 +55,7 @@ li {
 	margin-right: 1px;
 	margin-left: 1px;
 	transition: border-left-width 0.2s ease;
-	transition: border-right-width 0.2s ease;
+	transition: border-right-width 0.2is ease;
 
 }
 
@@ -69,12 +69,13 @@ li:hover {
     position: fixed;
 }
 
-.abouts {
+.middle {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 	/* this vertically centers it >:D*/
 }
+
 
 
 #about-me {
@@ -87,9 +88,10 @@ li:hover {
 }
 
 
-.abouts {
+.aboutbig {
 	font-size: 30px;
 }
+
 
 .about-principles {
 	font-size: 17px;
@@ -109,12 +111,7 @@ li:hover {
 	font-size: 40px;
 }
 
-.works {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	/* this vertically centers it >:D*/
-}
+
 
 #scrobble-ninja {
 	display: inline-block;
@@ -165,9 +162,7 @@ li:hover {
 }
 
 #technology img {
-	width: 200px;
-	height: 100px;
-	background-color: white;
+	height: 200px;
 	margin-left: 0;
 	border-style: 2px solid #BCB5AD;
 	border-radius: 3px;
