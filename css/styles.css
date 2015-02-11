@@ -21,6 +21,11 @@ section {
 	color: #fefbf7;
 }
 
+.title {
+	font-size: 40px;
+	font-weight: bold;
+}
+
 #name {
 	font-size: 30px;
 	margin-top: 100px;
@@ -89,7 +94,6 @@ li:hover {
 	background-color: #FFFFFF;
 	color: #032436;
 	/*overwrite default font color*/
-	font-size: 0x;
 }
 
 
@@ -110,13 +114,6 @@ li:hover {
 }
 
 
-.title {
-	font-size: 40px;
-	font-weight: bold;
-}
-
-
-
 #scrobble-ninja {
 	display: inline-block;
 	position:relative;
@@ -135,7 +132,6 @@ li:hover {
     left: 50%;
     margin-left: -150px;
     margin-top: -30px;
-
 }
 
 #see-saw {
@@ -171,12 +167,10 @@ li:hover {
 }
 
 
-
 #technology span {
 	font-size: 17px;
 	position:relative;
 	z-index: 5;
-
 }
 
 #technology ul {
@@ -190,5 +184,4 @@ li:hover {
 	height: 95%;
 	background-color: #4E9081;
 	color: #fefbf7;
-
 }
