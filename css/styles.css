@@ -81,7 +81,7 @@ li:hover {
 #about-me {
 	height: 105%;
 	background-color: #FFFFFF;
-	color: #333333;
+	color: #032436;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 0x;
@@ -100,7 +100,7 @@ li:hover {
 #portfolio {
 	height: 105%;
 	text-align: center;
-	background-color: #667850;
+	background-color: #635192;
 	font-size: 0px;
 	font-family: 'Raleway', sans-serif;
 	color: #fefbf7;
@@ -156,25 +156,31 @@ li:hover {
 
 #technology {
 	height: 105%;
-	background-color: #FFD3AA;
+	background-color: #7B84AE;
 	text-align: center;
 	color: #fefbf7;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 }
 
-#tech-words {
+
+
+.tech-content {
 	font-size: 17px;
 }
 
-#tech-logos img {
-	height: 125px;
-	margin-left: 0;
-	border-style: 2px solid #BCB5AD;
-	border-radius: 3px;
-
-	padding-top: 50px;
-	padding-left: 0;
 
 
+#technology span {
+	font-size: 17px;
+	position:relative;
+	z-index: 5;
+
+}
+
+#technology ul {
+	padding-top: -3px;
+	margin-top: -3px;
+	font-size: 15px;
+	z-index: 1;
 }
