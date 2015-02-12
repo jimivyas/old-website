@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var aboveHeight = $('header').outerHeight();
 
+
   $(window).scroll(function(){
       if ($(window).scrollTop() > aboveHeight){
           $('nav').addClass('fixed').css('top','0').next()
@@ -9,10 +10,8 @@ $(document).ready(function() {
           $('nav').removeClass('fixed').next()
           .css('padding-top','0');
       }
+
   });
-
-
-
 
   $("#click-arrow").click(function() {
     $('html, body').animate({
