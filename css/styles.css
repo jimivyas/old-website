@@ -173,7 +173,7 @@ table {
   width: 90%;
 }
 
-#year {
+.year {
   color: #E4E4E4;
 }
 
@@ -184,7 +184,7 @@ table {
   margin-left: 5px;
 }
 
-#event {
+.event {
   width: 5px;
   height: 4px;
   border-radius:;
