@@ -158,3 +158,37 @@ li:hover {
 	font-size: 15px;
 	z-index: 1;
 }
+
+table {
+  float: left;
+}
+
+#timeline {
+  height: 95%;
+  background-color: #0A4C3D;
+}
+
+#timeline-content {
+  margin: 100px auto;
+  width: 90%;
+}
+
+#year {
+  color: #E4E4E4;
+}
+
+.line-between {
+  height: 100px;
+  width: 2px;
+  border-left: 3px solid #E4E4E4;
+  margin-left: 5px;
+}
+
+#event {
+  width: 5px;
+  height: 4px;
+  border-radius:;
+  border: 3px solid #E4E4E4;
+
+}
+
