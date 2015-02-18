@@ -85,8 +85,6 @@ li:hover {
 	/* this vertically centers it >:D*/
 }
 
-
-
 #about-me {
 	height: 105%;
 	background-color: #FFFFFF;
@@ -94,11 +92,9 @@ li:hover {
 	/*overwrite default font color*/
 }
 
-
 .aboutbig {
 	font-size: 30px;
 }
-
 
 .about-principles {
 	font-size: 17px;
@@ -110,7 +106,6 @@ li:hover {
 	font-size: 0px;
 	color: #fefbf7;
 }
-
 
 .project {
 	display: inline-block;
@@ -132,18 +127,15 @@ li:hover {
     margin-top: -30px;
 }
 
-
 #technology {
 	height: 95%;
 	background-color: #7B84AE;
 	color: #fefbf7;
 }
 
-
 .tech-content {
 	font-size: 17px;
 }
-
 
 #technology span {
 	font-size: 17px;
@@ -184,4 +176,10 @@ li:hover {
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
+}
+
+#personal {
+	height: 95%;
+	color: #11073B;
+	background-color: #D4C06A;
 }
