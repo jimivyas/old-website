@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  var aboveHeight = $('header').outerHeight();
 
+// keep navbar on top :)
+  var aboveHeight = $('header').outerHeight();
 
   $(window).scroll(function(){
       if ($(window).scrollTop() > aboveHeight){
@@ -13,12 +14,15 @@ $(document).ready(function() {
 
   });
 
+// arrow-scrolling scripts
+
   $("#click-arrow").click(function() {
     $('html, body').animate({
       scrollTop: $("#about-me").offset().top
     }, 750);
   });
 
+  // scripts for the navbar click-to-scroll
 
   $("#click-about").click(function() {
     $('html, body').animate({
@@ -43,5 +47,8 @@ $(document).ready(function() {
       scrollTop: $("#history").offset().top
     }, 450);
   });
+
+
+
 
 });
