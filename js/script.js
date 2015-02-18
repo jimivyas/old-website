@@ -38,4 +38,10 @@ $(document).ready(function() {
     }, 450);
   });
 
+  $("#click-history").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#history").offset().top
+    }, 450);
+  });
+
 });
