@@ -169,11 +169,7 @@ table {
 }
 
 
-.year-info {
-	margin-left: auto;
-	margin-right: auto;
-	width: 600px;
-}
+
 
 .year {
 	border-radius: 4px;
@@ -188,5 +184,12 @@ table {
 .year:hover {
 	border-left-width: 7px;
 	border-right-width: 7px;
+}
+
+.year-info {
+	visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
 }
 

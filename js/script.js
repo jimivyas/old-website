@@ -48,7 +48,37 @@ $(document).ready(function() {
     }, 450);
   });
 
+// scripts for timeline. lots of repeated code here! this i should be able to clean up later.
 
+  $('#year1').hover(function() {
+    $('#2011').css('visibility', 'visible');
+  }, function (){
+    $('#2011').css('visibility', 'hidden');
+  });
+
+  $('#year2').hover(function() {
+    $('#2012').css('visibility', 'visible');
+  }, function (){
+    $('#2012').css('visibility', 'hidden');
+  });
+
+  $('#year3').hover(function() {
+    $('#2013').css('visibility', 'visible');
+  }, function (){
+    $('#2013').css('visibility', 'hidden');
+  });
+
+  $('#year4').hover(function() {
+    $('#2014').css('visibility', 'visible');
+  }, function (){
+    $('#2014').css('visibility', 'hidden');
+  });
+
+  $('#year5').hover(function() {
+    $('#2015').css('visibility', 'visible');
+  }, function (){
+    $('#2015').css('visibility', 'hidden');
+  });
 
 
 });
