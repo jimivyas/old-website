@@ -158,18 +158,11 @@ li:hover {
 	z-index: 1;
 }
 
-table {
-  float: left;
-}
-
 #history {
 	height: 95%;
 	color: #fefbf7;
 	background-color: #152C55;
 }
-
-
-
 
 .year {
 	border-radius: 4px;
@@ -192,4 +185,3 @@ table {
 	margin-right: auto;
 	width: 600px;
 }
-
