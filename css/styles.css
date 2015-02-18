@@ -183,3 +183,11 @@ li:hover {
 	color: #231858;
 	background-color: #D4C06A;
 }
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+tr {
+	text-align: center;
+}
