@@ -33,7 +33,7 @@ $(document).ready(function() {
   $("#click-portfolio").click(function() {
     $('html, body').animate({
       scrollTop: $("#portfolio").offset().top
-    }, 500);
+    }, 450);
   });
 
   $("#click-skills").click(function() {
@@ -45,6 +45,12 @@ $(document).ready(function() {
   $("#click-history").click(function() {
     $('html, body').animate({
       scrollTop: $("#history").offset().top
+    }, 450);
+  });
+
+  $("#click-personal").click(function() {
+    $('html, body').animate({
+      scrollTop: $('#personal').offset().top
     }, 450);
   });
 
