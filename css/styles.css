@@ -168,6 +168,13 @@ table {
 	background-color: #152C55;
 }
 
+
+.year-info {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
 .year {
 	border-radius: 4px;
 	border-color: #AA9439;
@@ -182,3 +189,4 @@ table {
 	border-left-width: 7px;
 	border-right-width: 7px;
 }
+
