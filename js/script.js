@@ -87,9 +87,14 @@ $(document).ready(function() {
   });
 
   // scripts for hobby section
-   $("#food").click(function(){
-      $('#personal').css("background-image", "url(pictures/food.jpg)");
+  $("#food").click(function(){
+      $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
+      $('#personal').css('background-size', '100%');
    })
+  // $("#food").click(function(){
+  //     $('#personal').css("background-image", "url(pictures/food.jpg)");
+  //  })
+
 
 
 });
