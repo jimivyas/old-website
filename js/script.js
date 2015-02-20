@@ -86,5 +86,10 @@ $(document).ready(function() {
     $('#2015').css('visibility', 'hidden');
   });
 
+  // scripts for hobby section
+   $("#food").click(function(){
+      $('#personal').css("background-image", "url(pictures/food.jpg)");
+   })
+
 
 });
