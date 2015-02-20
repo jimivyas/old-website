@@ -95,6 +95,11 @@ $(document).ready(function() {
       $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/music.jpg)");
       $('#personal').css('background-size', '100%');
    });
+  $("#swimming").click(function(){
+      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/swimming.jpg)");
+      $('#personal').css('background-size', '100%');
+   });
+
 
 
 
