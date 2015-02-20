@@ -90,10 +90,12 @@ $(document).ready(function() {
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
       $('#personal').css('background-size', '100%');
-   })
-  // $("#food").click(function(){
-  //     $('#personal').css("background-image", "url(pictures/food.jpg)");
-  //  })
+   });
+  $("#music").click(function(){
+      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/music.jpg)");
+      $('#personal').css('background-size', '100%');
+   });
+
 
 
 
