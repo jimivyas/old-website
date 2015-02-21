@@ -87,6 +87,13 @@ $(document).ready(function() {
   });
 
   // scripts for hobby section
+  $('#food').hover(function() {
+    $('#food').addClass("animated pulse");
+  }, function (){
+    $('#food').removeClass("animated pulse");
+  });
+
+
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
       $('#personal').css('background-size', '100%');
