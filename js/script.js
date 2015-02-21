@@ -92,7 +92,16 @@ $(document).ready(function() {
   }, function (){
     $('#food').removeClass("animated pulse");
   });
-
+   $('#music').hover(function() {
+    $('#music').addClass("animated pulse");
+  }, function (){
+    $('#music').removeClass("animated pulse");
+  });
+  $('#swimming').hover(function() {
+    $('#swimming').addClass("animated pulse");
+  }, function (){
+    $('#swimming').removeClass("animated pulse");
+  });
 
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
