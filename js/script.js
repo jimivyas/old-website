@@ -102,6 +102,12 @@ $(document).ready(function() {
   }, function (){
     $('#swimming').removeClass("animated pulse");
   });
+  $('#fashion').hover(function() {
+    $('#fashion').addClass("animated pulse");
+  }, function (){
+    $('#fashion').removeClass("animated pulse");
+  });
+
 
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
@@ -115,6 +121,11 @@ $(document).ready(function() {
       $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/swimming.jpg)");
       $('#personal').css('background-size', '100%');
    });
+  $("#fashion").click(function(){
+      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/shoes.jpg)");
+      $('#personal').css('background-size', '100%');
+   });
+
 
 
 
