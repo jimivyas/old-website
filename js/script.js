@@ -42,48 +42,10 @@ $(document).ready(function() {
     }, 450);
   });
 
-  $("#click-history").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#history").offset().top
-    }, 450);
-  });
-
   $("#click-personal").click(function() {
     $('html, body').animate({
       scrollTop: $('#personal').offset().top
     }, 450);
-  });
-
-// scripts for timeline. lots of repeated code here! this i should be able to clean up later.
-
-  $('#year1').hover(function() {
-    $('#2011').css('visibility', 'visible');
-  }, function (){
-    $('#2011').css('visibility', 'hidden');
-  });
-
-  $('#year2').hover(function() {
-    $('#2012').css('visibility', 'visible');
-  }, function (){
-    $('#2012').css('visibility', 'hidden');
-  });
-
-  $('#year3').hover(function() {
-    $('#2013').css('visibility', 'visible');
-  }, function (){
-    $('#2013').css('visibility', 'hidden');
-  });
-
-  $('#year4').hover(function() {
-    $('#2014').css('visibility', 'visible');
-  }, function (){
-    $('#2014').css('visibility', 'hidden');
-  });
-
-  $('#year5').hover(function() {
-    $('#2015').css('visibility', 'visible');
-  }, function (){
-    $('#2015').css('visibility', 'hidden');
   });
 
   // scripts for hobby section
@@ -107,7 +69,6 @@ $(document).ready(function() {
   }, function (){
     $('#fashion').removeClass("animated pulse");
   });
-
 
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
