@@ -7,6 +7,8 @@ header {
       rgba(0, 0, 0, 0.4)
     ), url(../pictures/background1.jpg);
 	background-size: 100%;
+	background-attachment: fixed;
+
 	overflow: auto;
 	color: #EEE9E9;
 	font-family: 'Raleway', sans-serif;
