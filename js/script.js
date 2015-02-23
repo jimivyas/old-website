@@ -112,18 +112,26 @@ $(document).ready(function() {
   $("#food").click(function(){
       $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
       $('#personal').css('background-size', '100%');
+      $('#personal').css('background-attachment', 'fixed');
+
    });
   $("#music").click(function(){
       $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/music.jpg)");
       $('#personal').css('background-size', '100%');
+      $('#personal').css('background-attachment', 'fixed');
+
    });
   $("#swimming").click(function(){
       $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/swimming.jpg)");
       $('#personal').css('background-size', '100%');
+      $('#personal').css('background-attachment', 'fixed');
+
    });
   $("#fashion").click(function(){
       $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/shoes.jpg)");
       $('#personal').css('background-size', '100%');
+      $('#personal').css('background-attachment', 'fixed');
+
    });
 
 
