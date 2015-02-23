@@ -52,6 +52,9 @@ nav {
 	z-index: 5000;
 }
 
+nav li {
+	cursor: pointer;
+}
 
 li {
 	border-style: solid;
@@ -68,6 +71,8 @@ li {
 	transition: border-left-width 0.2s ease;
 	transition: border-right-width 0.2is ease;
 }
+
+
 
 li:hover {
 	border-left-width: 5px;
@@ -160,7 +165,7 @@ li:hover {
 }
 
 
-#history {
+/*#history {
 	height: 95%;
 	color: #fefbf7;
 	background-color: #152C55;
@@ -187,7 +192,7 @@ li:hover {
 	margin-right: auto;
 	width: 600px;
 }
-
+*/
 #personal {
 	height: 95%;
 	color: #EEE9E9;
