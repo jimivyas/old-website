@@ -8,7 +8,6 @@ header {
     ), url(../pictures/background1.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
-
 	overflow: auto;
 	color: #EEE9E9;
 	font-family: 'Raleway', sans-serif;
@@ -102,6 +101,34 @@ li:hover {
 	font-size: 17px;
 }
 
+#technology {
+	height: 95%;
+	background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+    ), url(../pictures/tech-background.jpg);
+	background-size: 100%;
+	color: #fefbf7;
+	background-attachment: fixed;
+}
+
+.tech-content {
+	font-size: 17px;
+}
+
+#technology span {
+	font-size: 17px;
+	position:relative;
+	z-index: 5;
+}
+
+#technology ul {
+	padding-top: -3px;
+	margin-top: -3px;
+	font-size: 15px;
+	z-index: 1;
+}
+
 #portfolio {
 	height: 95%;
 	background-color: #635192;
@@ -129,28 +156,7 @@ li:hover {
     margin-top: -30px;
 }
 
-#technology {
-	height: 95%;
-	background-color: #7B84AE;
-	color: #fefbf7;
-}
 
-.tech-content {
-	font-size: 17px;
-}
-
-#technology span {
-	font-size: 17px;
-	position:relative;
-	z-index: 5;
-}
-
-#technology ul {
-	padding-top: -3px;
-	margin-top: -3px;
-	font-size: 15px;
-	z-index: 1;
-}
 
 #history {
 	height: 95%;
