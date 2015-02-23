@@ -131,13 +131,16 @@ li:hover {
 
 #portfolio {
 	height: 95%;
-	background-color: #635192;
-	font-size: 0px;
-	color: #fefbf7;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #032436;
+	/*overwrite default font color*/
+
 }
 
 .project {
 	display: inline-block;
+	background-color: #D1EEEE;
 	position:relative;
 	height: 200px;
 	width: 400px;
@@ -155,7 +158,6 @@ li:hover {
     margin-left: -150px;
     margin-top: -30px;
 }
-
 
 
 #history {
