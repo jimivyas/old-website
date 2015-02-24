@@ -42,57 +42,10 @@ $(document).ready(function() {
     }, 450);
   });
 
-  $("#click-personal").click(function() {
+  $("#click-contact").click(function() {
     $('html, body').animate({
-      scrollTop: $('#personal').offset().top
+      scrollTop: $('#contact').offset().top
     }, 450);
   });
-
-  // scripts for hobby section
-  $('#food').hover(function() {
-    $('#food').addClass("animated pulse");
-  }, function (){
-    $('#food').removeClass("animated pulse");
-  });
-   $('#music').hover(function() {
-    $('#music').addClass("animated pulse");
-  }, function (){
-    $('#music').removeClass("animated pulse");
-  });
-  $('#swimming').hover(function() {
-    $('#swimming').addClass("animated pulse");
-  }, function (){
-    $('#swimming').removeClass("animated pulse");
-  });
-  $('#fashion').hover(function() {
-    $('#fashion').addClass("animated pulse");
-  }, function (){
-    $('#fashion').removeClass("animated pulse");
-  });
-
-  $("#food").click(function(){
-      $('#personal').css("background", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/food.jpg)");
-      $('#personal').css('background-size', '100%');
-      $('#personal').css('background-attachment', 'fixed');
-
-   });
-  $("#music").click(function(){
-      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/music.jpg)");
-      $('#personal').css('background-size', '100%');
-      $('#personal').css('background-attachment', 'fixed');
-
-   });
-  $("#swimming").click(function(){
-      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/swimming.jpg)");
-      $('#personal').css('background-size', '100%');
-      $('#personal').css('background-attachment', 'fixed');
-
-   });
-  $("#fashion").click(function(){
-      $('#personal').css("background-image", "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(pictures/shoes.jpg)");
-      $('#personal').css('background-size', '100%');
-      $('#personal').css('background-attachment', 'fixed');
-
-   });
 
 });
