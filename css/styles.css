@@ -160,36 +160,3 @@ li:hover {
     margin-left: -150px;
     margin-top: -30px;
 }
-
-
-#personal {
-	height: 95%;
-	color: #EEE9E9;
-	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ), url(../pictures/hobbies/swimming.jpg), url(../pictures/hobbies/food.jpg), url(../pictures/hobbies/shoes.jpg), url(../pictures/hobbies/music.jpg);
-	background-attachment: fixed;
-
-}
-
-table {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-tr {
-	text-align: center;
-}
-
-.hobby {
-	height: 100px;
-	cursor: pointer;
-	background-color: #EEE9E9;
-	border-radius: 20px;
-	padding: 10px;
-	-vendor-animation-duration: 4s;
-	-vendor-animation-delay: .3s;
-	-vendor-animation-iteration-count: infinite;
-}
