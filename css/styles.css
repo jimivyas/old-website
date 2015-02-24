@@ -71,7 +71,6 @@ nav li {
 	transition: border-right-width 0.2is ease;
 }
 
-
 .fake:hover {
 	border-left-width: 5px;
 	border-right-width: 5px;

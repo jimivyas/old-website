@@ -11,7 +11,6 @@ $(document).ready(function() {
           $('nav').removeClass('fixed').next()
           .css('padding-top','0');
       }
-
   });
 
 // arrow-scrolling scripts
