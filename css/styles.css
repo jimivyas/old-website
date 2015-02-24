@@ -138,12 +138,11 @@ li:hover {
 	font-family: 'Raleway', sans-serif;
 	color: #032436;
 	/*overwrite default font color*/
-
 }
 
 .project {
 	display: inline-block;
-	background-color: #D1EEEE;
+	background-color: #325C74;
 	position:relative;
 	height: 200px;
 	width: 400px;
@@ -167,6 +166,12 @@ li:hover {
 	height: 95%;
 	color: #EEE9E9;
 	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(../pictures/hobbies/swimming.jpg), url(../pictures/hobbies/food.jpg), url(../pictures/hobbies/shoes.jpg), url(../pictures/hobbies/music.jpg);
+	background-attachment: fixed;
+
 }
 
 table {
@@ -184,7 +189,7 @@ tr {
 	background-color: #EEE9E9;
 	border-radius: 20px;
 	padding: 10px;
-	-vendor-animation-duration: 5s;
+	-vendor-animation-duration: 4s;
 	-vendor-animation-delay: .3s;
 	-vendor-animation-iteration-count: infinite;
 }
