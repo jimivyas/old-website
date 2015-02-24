@@ -169,10 +169,29 @@ nav li {
     ), url(../pictures/background3.jpg);
     background-size: 100%;
 	background-attachment: fixed;
-	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 	color: #EEE9E9;
+}
+#contact .title {
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
 
 #contact span {
 	font-size: 27px;
+}
+
+#contact ul {
+	background-color: #325C74;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #032436;
+	width: 400px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+
+}
+
+#contact li {
+	list-style-type: none;
+	padding: 5 0 5 0;
+
 }
