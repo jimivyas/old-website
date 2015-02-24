@@ -164,6 +164,13 @@ li:hover {
 #contact {
 	height: 95%;
 	color: #032436;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url(../pictures/background3.jpg);
+    background-size: 100%;
+	background-attachment: fixed;
+
 
 
 }
