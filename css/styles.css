@@ -192,8 +192,16 @@ nav li {
 
 #contact li {
 	list-style-type: none;
-	padding: 5 0 5 0;
+	padding: 5 0 5 10;
 	border-style: solid;
 	border-color: #032436;
 	border-width: 1px;
+}
+
+a:link {
+	color: #EEE9E9;
+}
+
+a:visited {
+	color: #767373;
 }
