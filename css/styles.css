@@ -135,6 +135,7 @@ nav li {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	color: #032436;
+	font-size:0;
 	/*overwrite default font color*/
 }
 
@@ -147,16 +148,12 @@ nav li {
 	border-style: solid;
 	border-radius: 3px;
 	font-size: 40px;
-	margin-right: 2px;
-	margin-left: 2px;
+	margin: 2 2 2 2;
 }
 
 .project img {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: -30px;
+	display: block;
+	margin: auto auto;
 }
 
 #contact {
@@ -169,6 +166,7 @@ nav li {
 	background-size: cover;
 	color: #EEE9E9;
 }
+
 #contact .title {
 	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
 }
