@@ -198,6 +198,10 @@ nav li {
 	border-width: 1px;
 }
 
+#contact li:hover {
+	background-color: #380606;
+}
+
 a:link {
 	color: #EEE9E9;
 }
