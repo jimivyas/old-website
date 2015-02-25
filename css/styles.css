@@ -5,9 +5,8 @@ header {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url(../pictures/background1.jpg);
-	background-size: 100%;
-	background-attachment: fixed;
+    ), url(../pictures/background1.jpg) no-repeat center center fixed;
+	background-size: cover;
 	overflow: auto;
 	color: #EEE9E9;
 	font-family: 'Raleway', sans-serif;
@@ -108,8 +107,8 @@ nav li {
 	background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)
-    ), url(../pictures/tech-background.jpg);
-	background-size: 100%;
+    ), url(../pictures/tech-background.jpg) no-repeat center center fixed;
+	background-size: cover;
 	color: #fefbf7;
 	background-attachment: fixed;
 }
@@ -166,9 +165,8 @@ nav li {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url(../pictures/background3.jpg);
-    background-size: 100%;
-	background-attachment: fixed;
+    ), url(../pictures/background3.jpg)no-repeat center center fixed;
+	background-size: cover;
 	color: #EEE9E9;
 }
 #contact .title {
