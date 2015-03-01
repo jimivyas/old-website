@@ -13,35 +13,27 @@ $(document).ready(function() {
       }
   });
 
-// arrow-scrolling scripts
-
-  $("#click-arrow").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#about-me").offset().top
-    }, 750);
-  });
-
   // scripts for the navbar click-to-scroll
 
-  $("#click-about").click(function() {
+  $(".click-about").click(function() {
     $('html, body').animate({
       scrollTop: $("#about-me").offset().top
     }, 500);
   });
 
-  $("#click-portfolio").click(function() {
+  $(".click-portfolio").click(function() {
     $('html, body').animate({
       scrollTop: $("#portfolio").offset().top
     }, 450);
   });
 
-  $("#click-skills").click(function() {
+  $(".click-skills").click(function() {
     $('html, body').animate({
       scrollTop: $("#technology").offset().top
     }, 450);
   });
 
-  $("#click-contact").click(function() {
+  $(".click-contact").click(function() {
     $('html, body').animate({
       scrollTop: $('#contact').offset().top
     }, 450);
